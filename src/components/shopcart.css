@@ -1,0 +1,132 @@
+.browse {
+  height: 435px;
+  width: 300px;
+  margin: 10px auto;
+  box-shadow: 10px 10px 10px rgb(173, 173, 173);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 25px;
+  padding: 0px 10px 0px 10px;
+}
+.Empty {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.Empty_back {
+  text-decoration: none;
+  background: -webkit-linear-gradient(45deg, #0046dd, #00ce78 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.CartShopping {
+  display: flex;
+  padding-top: 100px;
+}
+.rightCart {
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  position: fixed;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.pri {
+  display: inline-block;
+  overflow: hidden;
+  width: 150px;
+  background: -webkit-linear-gradient(45deg, #0046dd, #00ce78 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.totalPrice {
+  background: -webkit-linear-gradient(45deg, #0046dd, #00ce78 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  width: 300px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+.img {
+  display: flex;
+  justify-content: space-around !important;
+}
+.img1 {
+  width: 70px !important;
+  height: 40px !important;
+}
+.leftCart {
+  margin-left: 100px;
+}
+button {
+  border: none;
+  margin-left: 25px;
+}
+.btn1 {
+  margin: 0px auto;
+  width: 150px;
+  background-color: green;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  user-select: none;
+  cursor: pointer;
+}
+.icon {
+  width: 100%;
+  direction: rtl;
+  padding: 5px 10px 0px 0px;
+  user-select: none;
+  cursor: pointer;
+  color: rgb(116, 0, 0);
+}
+.price {
+  background: -webkit-linear-gradient(45deg, #0046dd, #00ce78 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  height: 300px;
+  width: 100%;
+}
+.title {
+  overflow-y: scroll;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+@media (max-width: 992px) {
+  .CartShopping {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rightCart {
+    position: relative;
+    right: 0;
+    width: auto;
+  }
+  .leftCart {
+    margin-left: 0;
+  }
+}

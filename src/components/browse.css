@@ -1,0 +1,48 @@
+.browse {
+  height: 425px;
+  width: 300px;
+  margin: 10px auto;
+  box-shadow: 10px 10px 10px rgb(173, 173, 173);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 25px;
+}
+h1 {
+  background: -webkit-linear-gradient(45deg, #0046dd, #00ce78 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+.price {
+  background: -webkit-linear-gradient(45deg, #0046dd, #00ce78 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-weight: bold;
+}
+img {
+  height: 300px;
+  width: 100%;
+}
+.btn_browse {
+  width: 100px;
+  height: 40px;
+  margin: 10px auto;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(0, 160, 0);
+  user-select: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.title {
+  overflow-y: scroll;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+}
